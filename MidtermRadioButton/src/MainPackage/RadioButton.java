@@ -11,9 +11,6 @@ public class RadioButton {
 	private JFrame frame;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -27,16 +24,10 @@ public class RadioButton {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public RadioButton() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
